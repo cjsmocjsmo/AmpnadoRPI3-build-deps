@@ -1,6 +1,7 @@
 FROM debian:buster-slim
 
 RUN \
+	mkdir /home/pi && \
 	mkdir /home/pi/AmpBackup && \
 	apt-get update && \
 	apt-get dist-upgrade -y && \
