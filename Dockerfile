@@ -15,7 +15,7 @@ RUN \
 		python3-pip \
 		nano
 
-RUN mkdir /home/AmpBackup
+RUN mkdir /home/pi/AmpBackup
 RUN pip3 install pymongo==3.4.0 tornado==3.2.1 mutagen==1.43.0
 
 CMD [ "/bin/sh" ]
