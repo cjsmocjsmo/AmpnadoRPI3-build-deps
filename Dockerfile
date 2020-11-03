@@ -17,6 +17,7 @@ RUN \
 		nano
 		
 RUN \
-	pip3 install pymongo==3.4.0 tornado==3.2.1 mutagen==1.43.0
+    mkdir /home/AmpBackup \
+	pip3 install pymongo==3.4.0 tornado==3.2.1 mutagen==1.43.0 pyxml
 
 CMD [ "/bin/sh" ]
