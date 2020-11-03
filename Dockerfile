@@ -1,6 +1,7 @@
 FROM debian:buster-slim
 
 RUN \
+	mkdir /home/pi/AmpBackup && \
 	apt-get update && \
 	apt-get dist-upgrade -y && \
 	apt-get autoclean -y && \
@@ -15,7 +16,6 @@ RUN \
 		python3-pip \
 		nano
 
-RUN mkdir /home/pi/AmpBackup
 RUN pip3 install pymongo==3.4.0 tornado==3.2.1 mutagen==1.43.0
 
 CMD [ "/bin/sh" ]
