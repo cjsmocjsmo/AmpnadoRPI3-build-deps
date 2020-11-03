@@ -12,7 +12,6 @@ RUN \
         python3-setuptools \
         python3-wheel \
 		python3-pil \
-		python3-yaml \
 		python3-pip \
 		nano
 		
