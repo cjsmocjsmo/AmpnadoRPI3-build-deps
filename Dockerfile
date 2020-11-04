@@ -12,8 +12,7 @@ RUN \
         python3-setuptools \
         python3-wheel \
 		python3-pil \
-		python3-pip \
-		nano
+		python3-pip
 
 RUN pip3 install pymongo==3.4.0 tornado==3.2.1 mutagen==1.43.0
 
