@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:arm32v7/debian
 
 RUN \
 	apt-get update && \
